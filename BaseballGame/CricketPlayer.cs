@@ -6,31 +6,27 @@ using System.Threading.Tasks;
 
 namespace BaseballGame
 {
-    class BaseballPlayer : IPlayer
+    class CricketPlayer : IPlayer
     {
         public string Name { get; set; }
         public int Number { get; set; }
 
-
-        public BaseballPlayer()
+        public CricketPlayer()
         {
             //Default Constructor
         }
 
-        public BaseballPlayer(string name, int number)
+        public CricketPlayer(string name, int number)
         {
             this.Name = name;
             this.Number = number;
-
-    
         }
+
         public void TakeTurn(IBaseballBat bat)
         {
             bat.Swing();
         }
-        public void TakeTurn()
-        {
-            
-        }
+
+
     }
 }

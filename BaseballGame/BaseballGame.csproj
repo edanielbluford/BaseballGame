@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="AluminumBat.cs" />
     <Compile Include="BaseballPlayer.cs" />
+    <Compile Include="CompositeBat.cs" />
+    <Compile Include="CricketPlayer.cs" />
+    <Compile Include="IPlayer.cs" />
     <Compile Include="IBaseballBat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
