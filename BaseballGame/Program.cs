@@ -52,7 +52,7 @@ namespace BaseballGame
                     case 3:
                         bat = new CompositeBat();
                         break;
-                    default: bat = new WoodenBat();
+                    default: bat = new FishBat();
                         break;
 
 

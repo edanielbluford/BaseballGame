@@ -45,7 +45,9 @@
     <Compile Include="AluminumBat.cs" />
     <Compile Include="BaseballPlayer.cs" />
     <Compile Include="CompositeBat.cs" />
+    <Compile Include="CrabPersonPlayer.cs" />
     <Compile Include="CricketPlayer.cs" />
+    <Compile Include="FishBat.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="IBaseballBat.cs" />
     <Compile Include="Program.cs" />
